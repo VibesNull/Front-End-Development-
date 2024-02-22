@@ -1,0 +1,523 @@
+JS notes 
+
+Variable key words 
+const - cant be re-declared - value will stay the same  EXMPLE : const var1 = 10 ,  const var1 = 20. == Syntax error : 
+Let - can be used to set a variable without a value- When u expect to re-assign a value
+Var- old legacy way of variables dont use . can be re-declared Example . var var1 = 10; , var var1=20;   var1=20 -- no syntaxx error
+
+
+
+
+Array----------------------------------------------
+const firstArray = [10,30,40,20];
+
+const secondArray = [30, 'string', {prop: 'idk'}, [1.2]];
+
+console.log(secondArray);
+Array(4) [ 30, "string", {…}, (1) […] ]
+
+
+console.log(firstArray[1])
+
+
+console.log(secondArray[3]);
+Array [ 1.2 ]
+
+
+console.log(secondArray[3][1]);
+Array [2]
+----------------------------------------------------------------------------------------
+OBJECTS 
+
+
+const objectVar = { prop1: 20, prop2 : 40 };
+objectVar
+Object { prop1: 20, prop2: 40 }
+objectVar.prop1
+	20 
+
+const nestedObject = {
+layer1:{
+    layer2:{
+        layer3:{
+            targetValue: 30 
+     
+    }
+  }
+
+}
+}
+nestedObject.layer1.layer2.layer3.targetValue
+	30 
+
+objectVar['prop1'] : Alternate way of finding Values within Objects
+20 
+
+ARRAY OF OBJECTS ::
+const blogPosts= [{
+	title : 'what is js',
+	author : 'zach',
+	content : 'some post content'
+
+
+
+},
+{
+	title: ' arrays',
+	author: ' zach',
+	publishDate: ' jan 1 ',
+	content: ' content here'
+
+},
+
+
+]
+---------------------------------------------------------------
+Functions 
+Parameters ( parameter 1 , parameter 2 )
+If u called the function like  Parameters () : would be an error as theres No arguements for the parameters 
+for example parameters ( 20 , 'example') are the arguements to the parameters : AKA their answers 
+ 
+
+Number() : function that takes a string Number '20' makes it into a int
+
+
+Function myFunction(){
+
+
+
+}
+
+KeyWord : function : function name () {}
+
+
+myFunction () : calling the function 
+
+
+Immediately Envoked Function : 
+
+(function therFunction (){
+console.log('hello there');
+
+
+}) ();
+
+How to Do : you wrap the function inside an extra () then use (); to call it afterwards 
+------------------------
+ANOTHER WAY TO WRITE FUNCTIONS :::
+
+const anotherFunction = function () {
+console.log('another thing');
+
+
+}
+
+Call it as a variable , However envoked the same : anotherFunction() 
+
+Anonmoys function : doesnt have a name instead assigned to a variable 
+-----
+ANOTHER WAY TO WRITE THEM : More tricky ;-; 
+
+"Arrow FUNCTION"
+
+const arrowFunction = () => {
+console.log('i am an arrow function');
+
+}
+
+Envoke - arrowFunction ();
+
+: Used to improve readabillity 
+
+*How to do : Assign a variable like normal, use () , then an arrow (=>) then normal {} *
+
+Normal Functions : 
+
+You can use and envoke these functions within an object if listed as a property
+----------------------------------------------------------------------
+JAVA SCRIPT OPERATORS 
+
+// Arithmatic Operators : + , - . * , / , % . ** , --
+
+modulas operator (%) - find the remainder of a division problem
+
+Exponent operator (**) - to the power Of 
+
+Increment Operator ( ++ ) -  Value + 1 
+
+Decrement Operator (--) - Value - 1 
+
+// Assignment Operators : = , += , -+ , *= , /=        : educational purposes 
+
+(+=) Adds whatever value on the right to the variable on the left
+(-=) Minues whatever value on the right 
+so on and So on . : act as shortcuts 
+
+// Comparison Operators : (==) (===) (!=) (!==) (>) (<) (>=) (<=)
+
+(===) is the left side and right side equal in both value and type 
+(!==) is the value not equal to the other value in terms of type 
+(==) Makes them the same Data type then checks if boths values are the same - doesnt care about type
+(!) is the  value Not equal to the other value
+
+Ternary Operator (const result = 20 === 400 ? 'values match' : 'values dont match'; )
+(? 'values match' : 'values dont match';)
+Acts like a fast IF statement 
+(if) if everything before is true 
+(:) else 
+
+
+// Logical operators
+(&&) And
+(||) OR
+(!) Reverses everything : Must be at the beggining of the expression !(20 === 20 ) = False 
+
+
+--------------------------------------------------------------
+
+FUNCTIONS , CONDITIONALS  AND LOOPS ::
+RANDOM STATEMENT::
+Const VariableName = Math.floor(math.random() * ArrayName.legnth);
+
+------
+
+(If) IF () {
+
+
+}
+
+  Else {}
+
+------------
+if () {}
+
+else if () {}
+
+else {}
+(bools) if Bools are in () then dont use = true / false / its already exsisting value
+
+
+
+SWITCH CASE STATEMENTS ::
+* alot of conditions being tested then appropriate to use
+switch : just means IF: () Variable being tested 
+
+Case compares () variable to the Right side variable : if its the same then do the actions else continue
+
+
+
+switch (RandomColour){
+  case 'orange':
+	console.log('is orange');
+	break;
+  case 'yellow':
+	console.log('is yellow ');
+
+   default : 		
+	console.log('no colour found');
+
+}
+
+Default = To our Else statement , the default answer if non of the cases are correct
+
+---------------------
+LOOPS ::
+
+Used to loop through Resources 
+when creating a loop instead of hardcoding the array number we are creating a variable Named (i)
+---
+for( let i = 0; i < Length/Number; i++)
+
+:: BreakDown. I = 0 index , While I is less than variable increment it by 1
+---
+use let for variable as we are going to increment it. I = to our own variable , could be named anything you want
+Create variables  = to array (in this case) [i] .ObjectName;
+
+Example : const postTitle = blogPosts[i].title;
+console.log(postTitle) -- Would post all titles within array 
+
+---------------
+
+"SCOPES"
+:where the variables are available in the code
+
+Function scopes , Global scopes 
+
+
+
+------
+BUILT IN FUNCTIONS :
+Diffrent data types have diffrent built in functions / Methods 
+depending on variable types 
+Dont try to memorize : only pick up on a few 
+
+Replace Method
+Variablename.replace ('parameter 1 ', 'Parameter 2')
+
+Math. FUNCTIONS - DEFINITELY USE ..
+
+https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm - basic functions 
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
+Understanding documentation.. : anything surronded in [] within a function is optional and not required
+--------------
+Call Back functions:
+
+---------------------
+Reversing  a string / int / object : The reverse method only exsists within an array -create a new variable containing that string , split it
+then a new variable in which u reverse that array 
+
+function solution(str){
+ const arr = str.split("");
+  const reversed = arr.reverse();
+  console.log(reversed);
+  const final = reversed.join("");
+return final;
+}
+
+OR 1 line method - easier 
+
+function solution(str){
+ return str.split("").reverse().join("");
+}
+
+-------------------
+Primitives 
+
+String = 'hello
+
+Summary  no construcor and no methods / functios 
+
+diffrence : const myString = new String('hello')
+
+---------------
+Dates 
+
+Const variableName = new Date()
+
+Date ( year , month , day , hour , minute , millisecond )
+// Month is indexed to 0 - January = 0 
+
+Can be Written as String - const varName = new Date (' Jan 20 20204') , const varName = new Date (' Jan 20 2024 02:10 ')
+
+Can add Time zone to the end const varName = new Date (' Jan 20 2024 02:10:19  (EDT) ') , const varName = new Date (' Jan 20 2024 02:10:19  -10:00 ')
+
+
+
+Date.now() - self explanitory  - varName = new Date(date.now()) 
+
+-------------------------------------------------------------------------------
+Regualar Expresions 
+
+Const emailValidatorRegualarExpression = new RegExp ( '^.+@.+\..+$);
+
+.Test method - will say if the characters / symbols u are searching for are inside the variable = True OR False
+
+Const Expression = New RegExp (String , or characters or numbers , Stoof your searching for ) 
+Const userInput = 'hello dere' 
+Let IsValid = Expression.test(userInput) - will return false or true depenind on ur search conditions 
+
+Can Also be written As /Search conditions/
+
+can search for broader items using [] 
+
+Example /[A-Z]/.test blahblah
+
+/[a-Z]/.Test , /[0-9]/.test
+
+------
+
+
+ODD OR EVEN Program :
+
+Uses % to see if theres a remainder if there is then its odd
+
+function evenOrOdd(number) {
+  if ( number % 2 == 0){
+return ("Even");
+
+}
+else {
+return ( "Odd");
+
+}
+
+}
+
+-------------------------------------
+String Methods () : 
+
+replaceAll () 
+Sum: replaceAll method returns a new string with all mathes of a pattern replaced by the replacement . Pattern  can
+be a string or regExp . Replacement can be a string or Function.
+
+const newString = MyString.replaceAll('Dog' , 'dog'); - change all 'Dog' to 'dog'
+
+
+
+toUpperCase() 
+Turns a string into all upperCase
+
+const myString = 'some String';
+undefined
+myString.toUpperCase(); 
+"SOME STRING" - Result
+
+SubString () 
+Returns the part of the String given between the start and end indexes 
+
+
+Example :  const str = 'beepboop'
+	   console.log(str.substring(1,3));
+		// returns ee
+
+
+	    Const str = 'beepboop'
+	   console.log(str.substring(2));
+		// returns epboop
+
+
+(1,3))  - the first index is the first character included , the second is the last character excluded from the substring.
+
+const result = myString[0].toUpperCase() + myString.substring(1);
+undefined
+
+result
+
+"Some String"
+
+
+Trim() 
+removes whiteSpace from both ends of a string spaces.
+string.Trim()
+
+Match()
+const regEx =  /[a-z]+/ 
+const str = ' aagsdfgfdggdhhdfghfhj';
+str.match(regEx)
+
+Regular expression Cant have global Flag
+
+
+ARRAY METHODS : VERY Important
+
+push() 
+takes an element and adds it to the end of an array
+
+pop()
+Removes the last element from the array
+
+shift()
+Removes the first element of an array
+
+unshift()
+add elements to the start of the array 
+
+slice()
+returns a copy of a portion of an array
+arr.slice ( start , end)
+
+splice()
+:changes the contents of an array by removing and replacing exsisting elements and/or adding new ones 
+findIndex()
+
+arr.splice(start , [deleteCount] , [item1] , [item2])
+[items] elemts to add to the array 
+
+	const arr = [1,2,3 , 'oops' , 4,5,6];
+	
+	arr.splice(3,1,'fix');
+	Array [ "oops" ]
+
+	Array(7) [ 1, 2, 3, "fix", 4, 5, 6 ]
+
+
+
+findIndex()
+returns the index of the fist element  that is wanted  otherwise returning -1
+Complicated but basically you can add a function to the brackets for more complicated stoof o-o 
+
+Example arrow functions inside >.>   arr.findIndex ((arrItem) => {return arrItem.objectname !== 'variableName';})
+
+indexOf()
+Usually with rawStrings
+returns the first index of which a given element can be found  -1 if non exsistant 
+arr.indexOf(searchVariable , [From Index])
+
+Map () 
+Call back Functions , Transformation 
+method creates a new array populated with the results of a functions effect on every element on the array called
+arrName.Map(function => { change/Function  return Name;})
+
+
+forEach()
+essentialy an easy loop : arr.forEach ( FunctionName => { console.log(functionName) })
+
+includes()
+Finds a element and sees if it exsists in an array
+ArrName.includes(element); - will return true or false
+
+
+filter()
+Filters out diffrent results within an array
+uses callback Functions 
+arrName.filter(functionName => {  return  FunctionName.ObjectName;})
+
+reduce()
+Complicated >.< : executes a "reducer"(that u make aka callback function) function on each element of the array resulting in a single value
+arr.reduce(callback("accumulator aka sum variable" , currentValue[, index , [array]] [initialValue])
+
+
+Easy: :DD
+sum = 0
+arr.reduce((sum , arrItem) => sum += arrItem,0 ) / arr.length -- Easy way to see the average of an array :D
+
+
+
+
+Lodash Libary - Adds  A TON MORE of in built methods 
+
+
+------------------------------
+Math Utillities
+
+
+Math.Pi
+
+Math.abs(-10) Return positive version
+Math.ceil (num) round up
+Math.floor() round down
+Math.round()
+Math.Min ( 1,4,5,6,0,1) return smallest
+Math.Max (1,6,23,1,2,5) return largest 
+Math.random()
+
+Const randomNum = Math.Random();
+Const randomIndex = Math.floor(Math.random() * arr.length)
+
+
+
+--------------------------------------------------------------------------
+Javascript erros , Undefined And More
+
+
+Try Catch block 
+
+Try{
+
+
+} catch(anything){
+
+	console.log(error instanceOf TypeError);
+	console.log(error.message);
+}
+
+
+Sees if any errors occour in the try - if so then it will be caught and run any function inside
+
+NaN - not a number 
+null - 
+
+NotDefined
+
