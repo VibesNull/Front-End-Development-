@@ -1,0 +1,110 @@
+HTML NOTESSSSSSSSS
+
+not case sensitive *
+Not line Sensitive *
+
+Doctument object model - DOM - allows javascript to be plugged into html
+
+What is html : Hypertext markup Language  - allows you to structure text and components onto a webpage - Not a full programming language 
+
+
+
+Basic HTML Structure 
+<html>
+	<head>
+		<title> Site Title </title
+	</head>
+	<body>
+		<!-- This is a html comment
+		
+
+		it looks diffrent and can be used across lines :o
+		
+
+		-->
+	</body>
+
+</html>
+
+
+Inside in the body is the bulk of the website 
+
+STANDARD HTML "BoilerPlate"
+
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8"/>
+		<title> NameSite </title>
+		<meta name = "description" content = "an example HTML site" />
+		<meta name = "author" content = "Zach" /> 
+		
+
+		<!-- this connects your CSS stylesheet -->
+		< link rel="stylesheet" href = "css/syles.css" /> 
+	</head>
+	<body>
+
+
+		<!-- this is where most html goes ! -->
+
+		<!-- this connects your javaScript to the HTML --> 
+		
+
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
+
+
+
+
+HTML TAGS
+opening tags <> 
+closing tags </>
+Paragraph tag <p> </P
+Image tag <img />
+
+NORMAL TAGS 
+<p> </p>
+<h1> </h1>
+<div> </div>
+<span> </span>
+<strong> </strong>
+
+SELF CLOSING TAGS
+
+<img />
+<input />
+<meta />
+<link />
+
+Container type Html Tags : 
+
+<div> </div> -- contain other elements within them such as paragraphs 
+
+<P HtmlAtrribute ="" > Content  </p> closing tags 
+
+HTML ATTRIBUTES
+Class attribute - allows css manipulation
+src = allows source image tag
+
+
+
+Heading Tags <H1 - h6 > 
+
+Can use them to organize our web pages 
+
+Paragraph Tag <p> </p> 
+Holds text basic 
+dont store elements inside
+Exceptions - Strong,span, Bold and emphasise elements 
+
+<span> </span> - if u want an element that looks different or does something different in the same line 
+<p>  some text i want to emphasise and make bold and <span>styled</span> </p> - modify span using Css
+
+emphasise Tag <em> </em>
+Strong Tag <strong> </strong> basically bold --- dont use Just use Span with classes - modify with Css
+
+
+
+
+DIV ELEMENT - generic container  seperate pieces of Html - can style diffrent Divs 
