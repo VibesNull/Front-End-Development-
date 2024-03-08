@@ -1,0 +1,202 @@
+.container{
+  border: 1px solid #000;
+  position: relative;
+  text-align: center;
+
+}
+.imgSpoot img
+{
+  max-height: 200px;
+  
+}
+.btn1{
+  position: relative;
+  z-index: 2;
+  bottom: 300px;
+  right: 580px;
+  width: 100px;
+  height: 100px;
+  font-family: 'BubbleGum', sans-serif; 
+  background-color: red;
+  color: white;
+}
+
+.btn2{
+  position: relative;
+  z-index: 2;
+  bottom: 300px;
+  right: 525px;
+  width: 100px;
+  height: 100px;
+  font-family: 'BubbleGum', sans-serif; 
+  background-color: orange;
+  color: white;
+}
+
+.btn3{
+  position: relative;
+  z-index: 2;
+  bottom: 185px;
+  right: 790px;
+  width: 100px;
+  height: 100px;
+  font-family: 'BubbleGum', sans-serif; 
+  background-color: rgb(2, 65, 2);
+  color: white;
+}
+
+.btn4{
+  position: relative;
+  z-index: 2;
+  bottom: 185px;
+  right: 735px;
+  width: 100px;
+  height: 100px;
+  font-family: 'BubbleGum', sans-serif; 
+  background-color: darkblue;
+  color: white;
+
+  
+}
+
+
+*/
+.backgroundYaY{
+   object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+    z-index: 0;
+    position: relative;
+    
+}
+    
+
+#theImage{
+  
+  z-index: 1;
+  
+  width: 200px;
+  top: 800px;
+  left: 300px;
+  max-width: 200px;
+  max-height: 125px;
+ 
+  
+  position: relative;
+  
+  object-fit: contain;
+  display: block;
+  
+}
+.giftImage{
+  position: relative;
+  display: block;
+  z-index: 2;
+  max-width: 10px;
+  height: 0.1px;
+  width: 0.1px;
+  left: 1200px;
+  top: 400px;
+}
+.moveName{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  
+  top: 600px;
+  left: 350px;
+  width: 400px;
+  height: 100px;
+  display: block;
+
+
+
+}
+.Prg{
+  font-family: 'BubbleGum', sans-serif; 
+
+}
+.hp-Bar1{
+  z-index: 0;
+  position: relative;
+  border: 1px solid black;
+  display: block;
+  width: 300px;
+  height: 100px;
+  top: 490px;
+  left: 180px;
+  background-color: rgba(32, 32, 32, 0.74);
+
+}
+.bar1Text {
+  text-align:  left;
+  margin-left: 10px;
+  color:  white;
+  position: relative;
+  top: 20px;
+  
+}
+.bar1Texty {
+  text-align:  right;
+  margin-right: 10px;
+  margin-bottom: 300px;
+  color:  white;
+  position: relative;
+  bottom: 10px;
+  
+}
+
+.actualBar {
+  height: 30px;
+  width: 200px;
+  background-color: red;
+  border-radius: 15%;
+  position: relative;
+  border: 3px solid black;
+  top: 590px;
+  left: 225px;
+  z-index: 1;
+}
+.hp-Bar2{
+  z-index: 0;
+  position: relative;
+  border: 1px solid black;
+  display: block;
+  width: 300px;
+  height: 100px;
+  top: 920px;
+  left: 1200px;
+  background-color: rgba(32, 32, 32, 0.74);
+
+}
+.bar2Text {
+  text-align:  left;
+  margin-left: 10px;
+  color:  white;
+  position: relative;
+  top: 20px;
+  
+}
+.bar2Texty {
+  text-align:  right;
+  margin-right: 10px;
+  margin-bottom: 300px;
+  color:  white;
+  position: relative;
+  bottom: 10px;
+  
+}
+.actualBar2 {
+  height: 30px;
+  width: 200px;
+  background-color: red;
+  border-radius: 15%;
+  position: relative;
+  border: 3px solid black;
+  top: 1015px;
+  left: 1240px;
+  z-index: 1;
+}
+

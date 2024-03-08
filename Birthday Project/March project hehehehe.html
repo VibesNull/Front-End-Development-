@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Title> 
+            March project
+        </Title>
+        <Meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function pictureChange()
+        {
+              document.getElementById("theImage").src="https://media.tenor.com/OzNPe52enwwAAAAi/mochi-cat-love.gif";
+    
+        }      
+        </script>
+        <script src="March project js.js"></script>
+        <link href="March-project-css.css" rel="StyleSheet">
+        <audio id="video"   autoplay type="audio/mpeg"></audio>
+        <link href="https://fonts.cdnfonts.com/css/bubblegum" rel="stylesheet">
+    </head>
+   
+
+    <body>
+        <audio id = "idAudio">
+            <source src ="Spoot pokemon battle/onlymp3.to - Pokemon Gotta Catch Em All-8W3hgyqVdI4-192k-1709908063.mp3" type = "audio/ogg" >
+            <source src="Spoot pokemon battle/onlymp3.to - Pokemon Gotta Catch Em All-8W3hgyqVdI4-192k-1709908063.mp3" type ="audio/mpeg">The browser is not supporting the audio element...
+        </audio>
+       
+        <main class="container">
+        <section class="hp-Bars">
+            <div class="actualBar"></div>
+            <div class="hp-Bar1">
+                <p class="bar1Text">Silly Spoot</p><p class="bar1Texty"> Lv 45 </p>
+                
+            </div>
+            <div class="actualBar2"></div>
+            <div class="hp-Bar2">
+                <p class="bar2Text">Present :o </p><p class="bar2Texty"> Lv ?? </p>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="moveName">
+                <p class="Prg">.</p>
+            </div>
+        </section>
+     
+        <section>
+            <section>
+                <div class="giftImage">
+                    <img id="gift"src="https://i.pinimg.com/736x/b9/f9/4a/b9f94ab66beacea73982e34cce8fda4b.jpg"  alt="" width="200px">
+                </div>
+                <div class="imgSpoot">
+                    <img id="theImage" src="https://scontent-cph2-1.xx.fbcdn.net/v/t39.30808-6/275931585_10224946275917613_8595613894451369914_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hOGM2XM3aKAAX9csfkj&_nc_ht=scontent-cph2-1.xx&oh=00_AfBNdFa_Lzdc-YLcjYYIsf0UeKGwDLcM2HPc-NCdG_b3ag&oe=65EE71C7" alt="">
+                </div>
+                <div id="ImgBox">
+                    <img class="backgroundYaY" src='https://img.genial.ly/609d61fc3016140f6b13fee5/86bb6343-55fb-4d38-9ff0-ca8f86e49146.png' alt="">
+                   
+                </div>
+            </section>
+           
+            <div>
+                <button class="btn1" onclick="useMoves()"> Fight </button>
+                <button class="btn2"> Bag </button>
+                <button class="btn3" onclick="pauseaudio()"> SpootAloots </button>
+                <button class="btn4" onclick="playaudio()"> Scadoodle </button>
+            </div>
+            
+        </section>
+        <script>
+            let vid = document.getElementById("idAudio");
+		function playaudio() {
+			vid.play();
+		}
+		function pauseaudio() {
+			vid.pause();
+		}
+        </script>
+        
+       
+        </main>
+        
+
+        
+    </body>
+    <footer>
+ 
+    </footer>
+</html>
