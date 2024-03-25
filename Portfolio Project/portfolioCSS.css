@@ -1,0 +1,182 @@
+/* add next time its super useful to stop issues 
+
+*{
+
+
+  margin: 0;
+  padding: 0;
+}
+use above^&&*/
+html{
+  background-color: grey;
+  scroll-behavior: smooth;
+}
+.topNav {
+    background-color: rgba(23, 23, 23, 0.932);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: solid 5px #753a1f;
+  }
+  .topNav a  {
+    float: left;
+    color: #753a1f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.pName  {
+    float: right;
+    color: #753a1f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    bottom: 20px;
+  }
+.topSection  /* Top part of the page*/
+  {
+    background-color: grey;
+    width: auto;
+    height: 500px;
+    margin: -0.3%;
+  }
+  .topBody{
+    padding-bottom: 1000px;
+
+    
+  }
+ 
+  .topTxt{
+    z-index: 1;
+    display: block;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background-color: rgba(72, 6, 255, 0.815);
+    
+   
+  }
+  .topImage{
+    
+    display: block;
+    width: 100%;
+    
+    position: relative;
+    z-index: 0;
+   
+    
+    
+  }
+ 
+  .topImage2{
+    width:  80%;
+    position: relative;
+    border: solid 5px #753a1f;
+    left: 20%;
+    bottom: 20%;
+    z-index: 2;
+  }
+.topBody{
+  border-top: solid 5px #753a1f;
+  
+}
+.topImage2Bod{
+ width: 80%;
+ position: absolute;
+ z-index: 1;
+ top: 20%;
+ 
+}
+.topImageBod {
+  position: absolute;
+  height: 66%;
+  width: 100%;
+  background-color: rgba(255, 145, 0, 0.055);
+  
+  z-index: 0;
+  top: 0%;
+  right: 0%;
+
+}
+.topInner{
+  background-color: black;
+  display: block;
+  height: 120%;
+  width: 100%; 
+  position: relative;
+  
+  bottom: 150%;
+}
+.topBanner{
+  overflow: hidden;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  bottom: 320%;
+}
+.topBanner img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(10%);
+}
+.topBodyImages{
+  height: 50%;
+  width: 45%;
+ position: absolute;
+ z-index: 1;
+ top: 100%;
+ left: 45%;
+ overflow: hidden;
+ 
+
+}
+.spootPic{
+   width:  45%;
+    position: relative;
+    border: solid 5px #753a1f;
+    left: 20%;
+    bottom: 5%;
+    z-index: 2;
+}
+.topBodyImages2{
+    
+    height: 105%;
+    width: 40%;
+   position: absolute;
+   z-index: 1;
+  top: 20px;
+  left: 30%;
+   overflow: hidden;
+   background-color: #753a1f;
+   
+  
+ 
+
+ 
+}
+
+
+.introText{
+  display: block;
+  overflow: hidden;
+  width: 30%;
+  height: 70%;
+  position: relative;
+  
+  
+  left: 10%;
+  bottom: 280%;
+  border-left: 10px solid  #753a1f;
+  border-bottom: 10px solid #753a1f;
+  
+}
+.introText p, h1 {
+  color: #753a1f;
+  text-align: center;
+}
