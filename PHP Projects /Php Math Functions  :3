@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post">
+        <label for=""><br> x: <input type="text" name="x"/></label>
+        <br>
+        <label for=""><br> Y: <input type="text" name="Y"/></label>
+        <br>
+        <label for=""><br> z: <input type="text" name="z"/></label>
+        <br>
+        <input type="submit" value="total">
+    </form>
+
+</body>
+</html>
+<?php
+    
+    $x = $_POST["x"];
+    $y = $_POST["y"];
+    $z = $_POST["z"];
+    $total = null;
+    
+
+   // $total = abs($x); absolute function
+  // $total = round($x); rounds a number
+  //$total = floor($x); will always round down
+  //$total = ceil($x); will always round up 
+  // $total = sqrt($x); square root function 
+  //  $total = pow($x , $y) - Power of function 
+ //  $total = max($x , $y , $z); Returns the largest number of a num of $variables
+   // $total = min($x , $y , $z); returns the lowest num 
+   //$total = pi(); Pi function 
+   //$total = rand(1,6); provides a random num ( min , Max)
+    echo $total;
+
+
+
+?>
