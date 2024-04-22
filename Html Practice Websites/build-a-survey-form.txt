@@ -1,0 +1,43 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">
+  Form
+</h1>
+<p id="description">
+  This is my description
+</p>
+<form id="survey-form">
+  <label id="name-label">Name<input id="name" type="text" required placeholder="Name"/></label>
+  <br>
+  <label id="email-label">email<input id="email" type="email" required  placeholder="steve@blah.com"/></label>
+  <br>
+<label id="number-label">Number<input id="number"  type="number" min="0" max="100" placeholder="124"/></label>
+<br>
+<select id="dropdown">
+<option>one</option>
+<option>two</option>
+</select>
+<br>
+<input type="radio" name="btn1" value="dog" />
+<br>
+<input type="radio" name="btn1" value="cat"/>
+<br>
+
+<input  type="checkbox" value="dog" />
+<input  type="checkbox" value="cat" />
+<input  type="checkbox" value="snake" />
+<br>
+<label> <textarea> </textarea>
+
+<label><input type="submit" id="submit"/></label>
+</form>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
