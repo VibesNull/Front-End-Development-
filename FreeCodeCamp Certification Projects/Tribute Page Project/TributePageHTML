@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <main id="main">
+    <h1 id="title">Snorlax, The Eepy Pokemon</h1>
+    <figure id="img-div">
+      <img  src="https://www.google.com/imgres?q=Snorlax&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fbuffiroh-chronicles%2Fimages%2F1%2F11%2FPokeSnorlax.jpg%2Frevision%2Flatest%3Fcb%3D20210719140129&imgrefurl=https%3A%2F%2Fbuffiroh-chronicles.fandom.com%2Fwiki%2FSnorlax&docid=WVJWXQwNR09FTM&tbnid=usR3BPKOEEwuAM&vet=12ahUKEwjG5N7zs-aLAxXoWEEAHXrABrEQM3oECBwQAA..i&w=800&h=400&hcb=2&ved=2ahUKEwjG5N7zs-aLAxXoWEEAHXrABrEQM3oECBwQAA" id="image">
+
+      <figcaption id="img-caption">
+          Snorlax , the generation 1 pokemon , was a staple amoungst the most popular pokemon from the games, First encoutered sleeping in the players path
+      </figcaption>
+    </figure>
+
+    <section id="tribute-info">
+      <h3>Here Are some fun facts About Snorlax</h3>
+      <ul>
+        <li>Snorlax devours nearly 900 pounds of food per day.</li>
+        <li>Height ( 6' 11)
+Weight (1014.1 lbs)</li>
+        <li>Snorlax is known as the 'Sleeping Pokémon' due to its large appetite and consistent sleeping habits.</li>
+        <li>This Pokemon Can be Found Blocking your path , and can only be moved with the pokeflute</li>
+      </ul>
+
+      <p>More Snorlax Information Can be Found On snorlax's <a id="tribute-link" target="_blank" href="https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pokémon)">Bulbapedia</a>
+    </section>
+
+  </main>
+
+</html>
