@@ -1,0 +1,60 @@
+*{
+  background-color: rgb(231, 231, 231);
+}
+h1{
+  font-family: cursive;
+  text-align: center;
+}
+#image{
+  max-width:100%;
+  border-radius: 5%
+}
+#img-div{
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  padding-bottom: 10px;
+  
+  margin: auto;
+  border-bottom: 5px solid
+}
+#img-caption{
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-bottom: 40px;
+}
+#tribute-info{
+  
+  
+}
+main{
+  margin: auto;
+}
+h3{
+  font-family: cursive;
+  text-align: center;
+  font-size: 1.456rem;
+  padding-bottom: 30px;
+
+}
+ul{
+  text-align: left;
+  border-bottom: 5px solid;
+  padding-bottom:50px;
+  padding-left: 50px;
+  font-size: 1.155rem
+}
+li{
+  padding:5px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+a{
+  color: green;
+}
+P{
+  font-family: cursive;
+  padding-left: 5px;
+  font-size: 1.1rem
+}
+  
