@@ -20,6 +20,10 @@ body {
   border-radius: 46%;
   cursor: grab;
 }
+.cat-head:active{
+  cursor: grabbing;
+
+}
 
 .cat-left-ear {
   position: absolute;
