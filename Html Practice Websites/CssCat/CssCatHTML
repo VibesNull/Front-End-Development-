@@ -47,6 +47,21 @@
         </div>
 
       </div>
+      <div class="cat-body">
+        <div class="cat-body-inner"></div>
+        <div class="cat-arms">
+          <div class="cat-arm-left"></div>
+          <div class="cat-arm-right"></div>
+        </div>
+        <div class="cat-tail">
+          <div class="cat-tail-end"></div>
+        </div>
+        <div class="cat-feet">
+          <div class="cat-foot-right"></div>
+          <div class="cat-foot-left"></div>
+
+        </div>
+      </div>
     </main>
 </body>
 </html>
