@@ -11,14 +11,16 @@ body {
   right: 0;
   left: 0;
   top: 0;
-  bottom: 0;
+  bottom: 1;
   margin: auto;
+  margin-top: 50px;
   background: linear-gradient(#5e5e5e 85%, #45454f 100%);
   width: 205px;
   height: 180px;
   border: 1px solid #000;
   border-radius: 46%;
   cursor: grab;
+  z-index: 2;
 }
 .cat-head:active{
   cursor: grabbing;
@@ -208,4 +210,135 @@ body {
   top: 134px;
   left: 109px;
   transform: rotate(3deg);
+}
+.cat-body{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+  background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+  width: 155px;
+  height: 200px;
+  border: 1px solid #000;
+  border-radius: 42%;
+  cursor: grab;
+
+
+  
+}
+.cat-body:active{
+  cursor: grabbing;
+
+}
+.cat-body:active .cat-left-eye{
+  background-color: red;
+}
+.cat-body-inner{
+  position: absolute;
+  right: 0;
+  left: 32px;
+  top: 70px;
+  bottom: 0;
+  background-color: #fff;
+  height: 100px;
+
+  width: 90px;
+  border-radius: 47%
+
+}
+.cat-tail{
+  position: absolute;
+  top: 140px;
+  left: 125px;
+
+ 
+  
+  
+  
+  
+}
+.cat-tail-end{
+  position: absolute;
+  
+  top: -55px;
+  left: 50px;
+  background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+  width: 20px;
+  height: 100px;
+  border-radius: 190%/190px 200px  ;
+  border-bottom-left-radius: 500%;
+  transform: rotate(-110deg);
+  z-index: -1;
+  
+  animation: cat-tail 10s infinite;
+  
+  
+
+}
+
+@keyframes cat-tail{
+  0%{transform: rotate(-110deg)}
+  25%{transform: rotate(-105deg)}
+  50%{transform: rotate(-110deg)}
+  75%{transform: rotate(-105deg)}
+  100%{transform: rotate(-110deg)}
+  
+}
+.cat-arm-left{
+  position: absolute;
+  top:60px;
+  left: 1px;
+  
+  border-radius: 90%;
+  border-bottom: 5px solid #000;
+  border-left: 1px solid #000;
+
+  width: 30px;
+  height: 50px;
+  z-index: 2
+  
+}
+.cat-arm-right{
+   position: absolute;
+  top:60px;
+  right: 1px;
+  
+  border-radius: 90%;
+  border-bottom: 5px solid #000;
+  border-right: 1px solid #000;
+
+  width: 30px;
+  height: 50px;
+  z-index: 2
+
+
+}
+.cat-foot-right{
+  position: absolute;
+  top:165px;
+  right: 40px;
+
+  background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+  width: 30px;
+  height: 50px;
+  border-radius: 46%;
+  border-bottom: 2px solid #000;
+  z-index: -1;
+
+}
+.cat-foot-left{
+  position: absolute;
+  top:165px;
+  left: 40px;
+
+  background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+  width: 30px;
+  height: 50px;
+  border-radius: 46%;
+  border-bottom: 2px solid #000;
+  z-index: -1;
+
 }
