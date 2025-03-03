@@ -18,6 +18,7 @@ body {
   height: 180px;
   border: 1px solid #000;
   border-radius: 46%;
+  cursor: grab;
 }
 
 .cat-left-ear {
