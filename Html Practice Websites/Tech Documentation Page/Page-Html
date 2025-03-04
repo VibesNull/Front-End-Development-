@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>technical Documents Page</title>
+</head>
+<body>
+  <nav id="navbar">
+    <header>Python Documentation</header>
+    <ul>
+       <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+       <li><a class="nav-link" href="#Python">Python</a></li>
+       <li><a class="nav-link" href="#Variables">variables</a></li>
+       <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+       <li><a class="nav-link" href="#Functions">Functions</a></li>
+       <li><a class="nav-link" href="#Loops">Loops</a></li>
+    </ul>
+
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <artical>
+          <p></p>
+          <p></p>
+          <code>"Print("Hello World")"</code>
+          <br>
+          <span> Here Is Somethings you will learn : </span>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+
+       </artical>
+
+    </section>
+
+    <section class="main-section" id="Python">
+      <header>Python</header>
+      <artical>
+          <p></p>
+          <p></p>
+       </artical>
+
+    </section>
+
+    <section class="main-section" id="Variables">
+       <header>Variables</header>
+       <artical>
+          <p></p>
+          <p></p>
+          <code></code>
+        </artical>
+
+    </section>
+
+    <section class="main-section" id="Declaring_variables">
+       <header>Declaring Variables</header>
+       <artical>
+          <p></p>
+          <p></p>
+          <code></code>
+
+       </artical>
+    </section>
+
+    <section class="main-section" id="Functions">
+       <header>Functions</header>
+       <artical>
+          <p></p>
+          <p></p>
+          <code></code>
+
+        </artical>
+
+    </section>
+
+    <section class="main-section" id="Loops">
+       <header>Loops</header>
+       <artical>
+          <p></p>
+          <p></p>
+          <code></code>
+
+       </artical>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
