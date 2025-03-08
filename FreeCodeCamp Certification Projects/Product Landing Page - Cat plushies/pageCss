@@ -257,6 +257,7 @@ footer span{
     text-align: center;
     padding: 0;
     height: 100px;
+    margin-bottom: 40px;
   }
    #nav-bar a {
     padding: 20px;
