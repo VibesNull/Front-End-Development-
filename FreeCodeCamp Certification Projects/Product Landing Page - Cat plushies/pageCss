@@ -258,4 +258,11 @@ footer span{
     padding: 0;
     height: 100px;
   }
+   #nav-bar a {
+    padding: 20px;
+    
+  }
+  #nav-bar{
+    margin-left: 30px;
+  }
 }
