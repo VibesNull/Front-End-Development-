@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="pageCss.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <section>
+        <header id="header">
+          <div class="logo-div">
+            <img src="https://media.istockphoto.com/id/2155359716/vector/cute-white-cat-peeking-cartoon-vector-illustration.jpg?s=612x612&w=0&k=20&c=8EOUTh5gJ3wSuWH4IjKgvy6LMGKBI2nNWVxjqvPCDcg=" id="header-img" />
+            <span>CatPlush</span>
+          </div>
+          <nav id="nav-bar">
+            <ul>
+
+              <li><a href="#features" class="nav-link">Features</a></li>
+              <li><a class="nav-link" href="#guide">Guide</a></li>
+              <li><a class="nav-link" href="#prices">Prices</a></li>
+
+            </ul>
+          </nav>
+        </header>
+      </section>
+
+      <section class="hero">
+        <h2>Enlist Here to keep Up to Date</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email"></label><br>
+          <input type="email" id="email" placeholder="asddf@gmail.co.uk" name="email"/>
+          <input type="submit" id="submit" Value="Join Up">
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="element">
+            <div class="icon">
+              <img src="https://cdn-icons-png.flaticon.com/512/4947/4947265.png" class="icon-img"/>
+            </div>
+            <div class="description">
+              <h3>Ultra Fast Delivery</h3>
+              <hr>
+              <p>Free Next day shipping With orders <span><b>totaling</b> over <span class="money">$15.00</span></span> , alongside Global Shipping </p>
+            </div>
+          </div>
+
+          <div class="element">
+            <div class="icon">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRXqKY7fjXMg_6SnoblWNARFiFt9ClpY2hTQ&s" class="icon-img"/>
+            </div>
+            <div class="description">
+              <h3>Unlimited Customization</h3>
+              <hr>
+              <p>Customize your cat! just the way you want , from fluffy and small , to large and plump</p>
+            </div>
+
+          </div>
+
+          <div class="element">
+            <div class="icon">
+              <img src="https://cdn-icons-png.flaticon.com/512/1380/1380641.png" class="icon-img"/>
+            </div>
+            <div class="description">
+              <h3>Free Refunds</h3>
+              <hr>
+              <p>We value your opinon and thats why we offer free refunds if our product doesnt meet your satisfaction</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="guide">
+          <!-- add iframe here to show a video !-->
+          <iframe  src="https://www.youtube.com/watch?v=u7kdVe8q5zs" id="video"
+          height="300"></iframe>
+        </section>
+
+        <section id="prices">
+          <div class="price">
+            <h3>Basic Model</h3>
+            <hr>
+            <h4>$5.00 +</h4>
+            <ul>
+              <li>Variety Of Premade Cat plushies</li>
+              <li>Set Number Of colors Per model</li>
+              <li>Cheaper Prices </li>
+              <li>Can Modify Basemodels</li>
+
+            </ul>
+            <button>Select</button>
+          </div>
+          <div class="price">
+            <h3>Build A CAT</h3>
+            <hr>
+            <h4>$15.00 +</h4>
+            <ul>
+              <li>Variety Of Custom Bases</li>
+              <li>Fully customizable Features</li>
+              <li>Abillity to mix and match </li>
+              <li>Unlimited Potential for creativity</li>
+
+            </ul>
+            <button>Select</button>
+          </div>
+          
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+
+          </ul>
+          <span>Copyright: 2016
+        </footer>
+      </div>
+      
+    </div>
+  </body>
+</html>
