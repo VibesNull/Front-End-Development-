@@ -1,0 +1,261 @@
+:root{
+  --main-color1: rgb(243, 238, 238);
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: white;
+  margin: 1px;
+}
+.page-wrapper{
+  display: relative;
+ 
+}
+header{
+  
+  
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: white;
+  
+  
+}
+header ul{
+  list-style-type: none;
+  display: flex;
+  width: 30vw;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  
+}
+header ul a{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.1rem;
+  font-family: cursive;
+}
+.logo-div{
+  width: 65vw;
+  
+  
+}
+.logo-div span{
+  
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 150px;
+  font-family: cursive;
+  font-size: 1.1rem;
+}
+#nav-bar{
+
+}
+#header-img{
+  width: 100%;
+  height: 100%;
+  max-width: 100px;
+}
+/*
+  Working On header Next using flex boxes
+
+*/
+.hero{
+  margin-top: 75px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+h2{
+  font-family: cursive;
+}
+#email{
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  box-shadow: 1px 1px 1px
+}
+#submit{
+  border: none;
+  width: 100%;
+  max-width: 150px;
+  margin: 10px;
+  height: 35px;
+  background: linear-gradient(
+    darkgrey 10%,
+    grey 90%
+    
+    
+    );
+
+  font-family: cursive;
+
+}
+.container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+#features{
+  margin: 40px;
+  
+}
+.element{
+  display: flex;
+  
+ 
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 75vw;
+  padding: 5px;
+}
+.description h3{
+  padding: 5px;
+  font-family: cursive;
+  font-size: 1.4rem;
+}
+.description p{
+  font-family: sans-serif;
+}
+.description p span{
+  font-size: 1.05rem;
+}
+.money{
+  font-size: 1.1rem;
+  
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.icon{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vh;
+  height: 100px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.icon-img{
+  max-width: 200px;
+  width: 100%;
+  height:100%;
+  object-fit: contain;
+}
+
+#guide{
+  display: flex;
+  justify-content: center;
+}
+#video{
+  width:100%;
+  max-width: 500px;
+  border: 5px solid orange;
+}
+
+
+
+
+footer{
+  background-color: #eee;
+  
+  padding: 30px;
+  margin-top: 20px;
+  margin: 5px;
+  
+  
+}
+footer ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+footer a{
+  text-decoration: none;
+  padding: 0 10px;
+  color: #000
+}
+footer span{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  align-items: center;
+  margin-right: 50px;
+}
+#prices{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.price{
+  margin: 30px;
+  border: 2px solid orange;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+
+}
+.price h4{
+  margin: 10px;
+  font-size: 1.3rem;
+}
+.price ul{
+  list-style-type: none;
+}
+.price li{
+  margin: 5px;
+  padding: 5px;
+}
+.price h3{
+  background-color: #eee;
+
+}
+.price button{
+  border: none;
+
+  height: 40px;
+  margin: 30px;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+@media only screen and (max-width:500px){
+  header{
+    flex-wrap: wrap;
+  }
+  .logo-div{
+    margin-top: 15px;
+  }
+  .hero{
+    margin-top: 200px;
+  }
+  .icon{
+    display: none;
+  }
+  .description{
+    width:100%;
+    text-align: center;
+    padding: 0;
+    height: 100px;
+  }
+}
