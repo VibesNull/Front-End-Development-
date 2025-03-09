@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="styles.css" rel="stylesheet"/>
+    <meta charset="UTF-8"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  </head>
+  <body>
+    <header>
+      <div class="logo-div">
+        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/130c721c-667c-4743-bda9-f89cce5e954d-profile_image-300x300.png" class="logo" width="100"/>
+      </div>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="welcome-section">
+      <div class="intro">
+        <h1><span id="pt1">Hello I'</span>m Owen</h1>
+        <p> A Web and Software developer
+      </div>
+    </section>
+    
+    <section id="contact">
+    </section>
+
+    <section id="projects">
+    </section>
+
+    <footer>
+      <span></span>
+      <p></p>
+    </footer>
+
+  </body>
+
+</html>
