@@ -93,7 +93,7 @@
   50% {
     background-color: purple;
   }
-  75{
+  75%{
     background-color: yellow;
   }
   100% {
