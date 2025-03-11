@@ -27,6 +27,26 @@
     </section>
     
     <section id="contact">
+      <div class="contract-header">
+        <h2>Want to spy on me?</h2>
+        <p>well now you can ! :)</p>
+      </div>
+      <div class="social">
+        <a class="icon" href="https://github.com/VibesNull" id="profile-link" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"  class="icon-img"/>
+          <p>GitHub</p>
+        </a>
+        <a class="icon" href="Linkedin.com/in/owen-revell-73b0a1245/" target="_blank">
+          <img src=" https://openvisualfx.com/wp-content/uploads/2019/10/linkedin-icon-logo-png-transparent.png"  class="icon-img"/>
+          <p>LinkedIn</p>
+        </a>
+        <a class="icon" href="mailto:Owen.revell@outlook.com" target="_blank">
+          <img src=" https://www.freeiconspng.com/thumbs/email-icon/email-icon--clipart-best-22.png" class="icon-img" />
+          <p>Email Me</p>
+        </a>
+        
+      </div>
+
     </section>
 
     <section id="projects">
