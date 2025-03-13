@@ -29,7 +29,7 @@
     <section id="contact">
       <div class="contract-header">
         <h2>Want to spy on me?</h2>
-        <p>well now you can ! :)</p>
+        <p>Well now you can ! :)</p>
       </div>
       <div class="social">
         <a class="icon" href="https://github.com/VibesNull" id="profile-link" target="_blank">
@@ -50,11 +50,49 @@
     </section>
 
     <section id="projects">
+      <h3>Here are some of my projects</h3>
+      
+      <div class="grid">
+        <a href="https://codepen.io/owen-revell/full/mydqBGQ" class="project-tile">
+          <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_640.jpg" class="project-img"/>
+          <p class="project-title">Product Landing Page</p>
+        </a>
+
+
+        <a href="#" class="project-tile">
+          <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_640.jpg" class="project-img"/>
+          <p class="project-title">Product Landing Page</p>
+        </a>
+
+
+        <a href="#" class="project-tile">
+          <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_640.jpg" class="project-img"/>
+          <p class="project-title">Product Landing Page</p>
+        </a>
+
+
+        <a href="#" class="project-tile">
+          <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_640.jpg" class="project-img"/>
+          <p class="project-title">Product Landing Page</p>
+        </a>
+
+        <a href="#" class="project-tile">
+          <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_640.jpg" class="project-img"/>
+          <p class="project-title">Product Landing Page</p>
+        </a>
+
+        <a href="#" class="project-tile">
+          <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_640.jpg" class="project-img"/>
+          <p class="project-title">Product Landing Page</p>
+        </a>
+        
+      </div>
+
     </section>
 
     <footer>
-      <span></span>
-      <p></p>
+      <span>This Portfolio was intended for Owen and is made by owen </span>
+      <p>@created by Owen</p>
     </footer>
 
   </body>
