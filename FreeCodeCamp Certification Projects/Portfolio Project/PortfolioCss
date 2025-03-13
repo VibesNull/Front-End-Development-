@@ -1,5 +1,6 @@
 :root{
   --main-color1: #eee;
+  --main-color3: rgb(56, 50, 50);
 }
 
 *{
@@ -98,6 +99,7 @@ header{
   content: " />"
 }
 .intro p{
+  padding-top: 20px;
   font-family: sans-serif;
   font-size: 1.1rem;
   color: var(--main-color1);
@@ -117,12 +119,14 @@ header{
 }
 .contract-header{
   display: flex;
-  border: 1px solid #333;
+  
   flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
   margin-bottom: 150px;
+  border-bottom: 4px solid;
+  
 }
 .contract-header h2{
   font-family: cursive;
@@ -135,8 +139,11 @@ header{
   content: " /> "
 }
 .contract-header p{
+  padding-top: 50px;
+  padding-bottom: 10px;
   font-family: sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  
 }
 .social{
   display: flex;
@@ -157,4 +164,112 @@ header{
 .icon-img{
   width: 100%;
   max-width: 100px;
+}
+#projects{
+  text-align: center;
+  padding: 6rem 3rem;
+}
+#projects h3{
+  font-family: cursive;
+  margin: 30px;
+  font-size: 2rem;
+  border-bottom: 4px solid;
+}
+#projects h3:before{
+  content: "< "
+  
+}
+#projects h3:after{
+  content: " />"
+  
+}
+
+.grid{
+  margin: 100px auto;;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  max-width: 1240px;
+  
+}
+
+.project-tile{
+  border: 1px solid black;;
+  margin: 20px;
+  display: flex;
+
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(54, 54, 54);
+  
+}
+a{
+  text-decoration: none;
+}
+.project-tile p{
+  text-decoration: none;
+  color: #eee;
+  font-family: cursive;
+  padding: 5px;
+  
+}
+
+.project-img{
+  width: 100%;
+  max-width: 500px;
+  height: calc(100% - 1.4rem);
+  object-fit: cover;
+}
+
+
+
+footer{
+  display: flex
+;
+  flex-direction: row;
+  
+  
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--main-color3);
+  border-radius: 5% 5% 0% 0%;
+  border-top: 3px solid rgb(9, 9, 95);
+  color: white; /* Redecorate all of footer*/
+}
+footer span{
+  padding: 60px;
+  font-size: 1.3rem;
+  font-family: cursive;
+}
+footer p {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+@media only screen and (max-width: 510px){
+
+  footer p{
+    padding-right: 25px;
+  }
+  .contract-header h2{
+    text-align: center;
+  }
+  .intro h1{
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 505px){
+  .logo{
+    display: none;
+  }
+  .logo-div{
+    width: 0;
+  }
+  header{
+    padding: 10px;
+  }
 }
