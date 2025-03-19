@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./styles.css">
-    <title>RPG - Dragon Repeller</title>
-  </head>
-  <body>
-    <div id="game">
-      <div id="stats">
-        <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
-        <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
-        <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
-      </div>
-      <div id="controls">
-        <button id="button1">Go to store</button>
-        <button id="button2">Go to cave</button>
-        <button id="button3">Fight dragon</button>
-      </div>
-      <div id="monsterStats">
-        <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
-        <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
-      </div>
-      <div id="text">
-        Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
-      </div>
-    </div>
-    <script src="./script.js"></script>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles.css">
+        <title>RPG - Spoot Aloot Adventures</title>
+    </head>
+    <body>
+        <div class="intro">
+            <img id="introImg"src="wooden-table-with-lights-in-background-free-photo.jpeg"/>
+            <button id="open" onclick="buttonSounds()">Start Your Adventure !</button>
+        </div>
+        <div id="game">
+            <div id="stats">
+                <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+                <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+                <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+            </div>
+            <div id="controls">
+                <button id="button1">Go to Rema</button>
+                <button id="button2">Go to Forest</button>
+                <button id="button3">Fight Mor</button>
+            </div>
+            <div>
+                <img src="" alt="spootimg"/>
+            </div>
+            <div id="monsterStats">
+                <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+                <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+            </div>
+            <div id="text">
+                Welcome to Spoot's Adventures. You must defeat the Evil Mor that is preventing you from having more treatos. You are in the house. Where do you want to go? Use the buttons above.
+            </div>
+        </div>
+        <audio id="sound" src="Power Button Off.mp4"></audio>
+        <audio id="soundTwo" src="Power Button On.mp4"></audio>
+        <script src="./script.js"></script>
+    </body>
 </html>
