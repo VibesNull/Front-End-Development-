@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Palindrome Checker</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <main>
+      <h1>Is it a palindrome ? :0</h1>
+      <div class="palindrome-div">
+        
+        <input id="text-input" required placeholder="Taco cat"/>
+        <button id="check-btn">Check</button>
+      <div id="result"></div>
+      </div>
+      
+    </main>
+    <script src="script.js"></script>
+  </body>
+
+
+  
+</html>
